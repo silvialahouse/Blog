@@ -7,7 +7,7 @@ const Capitulo5 = () => {
         <div className="capitulo-container">
             <div className="titulo-container">
                 <h1 className="titulo-capitulo">
-                Capítulo 5: 'Saturno'
+                Capítulo 5: 'Kimball en Saturno'
                 </h1>
             </div>
             <div className="contenido-container">

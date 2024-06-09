@@ -26,7 +26,7 @@ export const Home = () => {
         },
         {
             id: 5,
-            title: "Capítulo 5: 'Saturno'",
+            title: "Capítulo 5: 'Kimball en Saturno'",
             imageSrc: "https://www.ngenespanol.com/wp-content/uploads/2023/11/en-2025-los-iconicos-anillos-de-saturno-desapareceran.jpg",
         },
         {
