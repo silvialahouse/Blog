@@ -87,7 +87,7 @@ export const Home = () => {
     ];
 
     return (
-        <div className="text-center mt-5">
+        <div className="background-div text-center pt-5">
             <h1 className="title-home">¡COMIENZA NUESTRO GRAN VIAJE!</h1>
             <div className="slides-container">
                 {slidesData.map((slide) => (

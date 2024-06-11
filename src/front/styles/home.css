@@ -1,7 +1,12 @@
+.background-div {
+    background-color: rgb(198, 217, 231);
+}
+
 .title-home {
     padding: 20px;
-    font-size: 2.5em; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    font-size: 2.2em; 
+    text-shadow: 2px 2px 4px rgb(255, 255, 255); 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .slides-container {
