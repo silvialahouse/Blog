@@ -89,15 +89,18 @@ export const Home = () => {
     return (
         <div className="background-div text-center pt-5">
             <h1 className="title-home">¡COMIENZA NUESTRO GRAN VIAJE!</h1>
-            <div className="slides-container">
-                {slidesData.map((slide) => (
-                    <Slide 
-                        key={slide.id}
-                        title={slide.title}
-                        imageSrc={slide.imageSrc}
-                        chapterId={slide.id}
-                    />
-                ))}
+            <div className="container-fluid">
+                <div className="row">
+                    {slidesData.map((slide) => (
+                        <div key={slide.id} className="col-12 col-md-6 col-lg-3 mb-4">
+                            <Slide
+                                title={slide.title}
+                                imageSrc={slide.imageSrc}
+                                chapterId={slide.id}
+                            />
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );
