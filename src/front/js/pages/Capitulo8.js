@@ -1,36 +1,67 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 import "../../styles/Capitulos.css";
 
 const Capitulo8 = () => {
+    const [inputValue, setInputValue] = useState("");
+
+    const handleInputChange = (event) => {
+        setInputValue(event.target.value);
+    };
+
+    const handleKeyDown = (event) => {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            handleVerification();
+        }
+    };
+
+    const handleVerification = () => {
+        if (inputValue.toLowerCase() === "tortuga") {
+            Swal.fire({
+                title: "¡CORRECTO!",
+                icon: "success",
+                confirmButtonText: "OK"
+            });
+        } else {
+            Swal.fire({
+                title: "Inténtalo de nuevo",
+                icon: "error",
+                confirmButtonText: "OK"
+            });
+        }
+    };
+
+    const handleConfirmClick = () => {
+        handleVerification();
+    };
+
     return (
         <div className="capitulo-container">
-            <div className="titulo-container">
-                <h1 className="titulo-capitulo">
-                    Capítulo 8: 'Padeleando en Plutón'
-                </h1>
+            <h1 className="titulo-capitulo">
+                TORTUGA
+            </h1>
+            <textarea
+                className="texto-capitulo"
+                placeholder="Escribe aquí el nombre..."
+                value={inputValue}
+                onChange={handleInputChange}
+                onKeyDown={handleKeyDown}
+            ></textarea>
+            <div>
+            <button className="btn btn-light" onClick={handleConfirmClick}>
+                Confirmar
+            </button>
             </div>
-            <div className="contenido-container">
-                <div className="parrafo1">
-                    <p>
-                        Plutón es un planeta enano ubicado en el Cinturón de Kuiper, descubierto en 1930. Con una superficie helada y una atmósfera tenue, Plutón tiene cinco lunas, siendo Caronte la más grande. Aunque no es adecuado para la actividad física humana, su estudio ayuda a entender la formación del sistema solar y la tecnología espacial.
-                    </p>
-                </div>
-                <div className="parrafo2">
-                    <p>
-                        Después del enriquecedor viaje por el sistema solar, llegamos a nuestro hogar: La Tierra.
-                        Tiene una atmosfera rica en oxígeno, grandes océanos de agua líquida y una biosfera diversa, todo ello hace posible que podamos habitarla, por lo que debemos conocerla y cuidarla.
-                    </p>
-                </div>
-                <div className="imagen-container">
-                    <img src="https://media.es.wired.com/photos/65d3a691d5395740395ba76e/16:9/w_2560%2Cc_limit/Pluto%25CC%2581n%2520(1).jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
-                </div>
-            </div>
+            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
-                <button className="btn btn-light"><Link to="/" className="link-back">Atrás</Link></button>
+                <button className="btn btn-light">
+                    <Link to="/" className="link-back">Atrás</Link>
+                </button>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Capitulo8;

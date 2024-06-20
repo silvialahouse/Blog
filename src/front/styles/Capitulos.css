@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(198, 217, 231);
+    background: linear-gradient(to bottom, #e1ecf1, #005377);
+    min-height: 100vh;
 }
 
 .capitulo-container {
@@ -7,54 +8,44 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    margin: 20px auto;
-    margin-bottom: 20px;
-    max-width: 1000px;
+    max-width: 800px;
+    width: 100%;
     font-family: 'Arial', sans-serif;
-    min-height: 100vh;
-}
-
-.titulo-container {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 20px auto;
 }
 
 .titulo-capitulo {
     color: #2c3e50;
-    font-size: 2.2em;
-    margin-bottom: 10px;
+    font-size: 3em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-}
-
-.contenido-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.parrafo1, .parrafo2 {
     margin-bottom: 20px;
-    min-width: 90%;
-    text-align: justify;
 }
 
-.parrafo1 p, .parrafo2 p {
-    font-size: 1.3em;
-    line-height: 1.8;
-    color: #34495e;
+.texto-capitulo {
+    width: 100%;
+    height: 150px;
+    font-size: 3em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    resize: none;
 }
 
 .imagen-container {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .imagen-capitulo {
     width: 100%;
+    max-width: 400px;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
@@ -66,6 +57,7 @@ body {
 .boton-container {
     text-align: center;
     margin-top: 20px;
+    
 }
 
 .link-back {
@@ -91,6 +83,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
     display: inline-block;
+    margin-bottom: 30px;
 }
 
 .btn:hover {
@@ -103,7 +96,7 @@ body {
         font-size: 2em;
     }
 
-    .parrafo1 p, .parrafo2 p {
+    .texto-capitulo {
         font-size: 1em;
     }
 

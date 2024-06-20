@@ -1,35 +1,67 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 import "../../styles/Capitulos.css";
 
 const Capitulo6 = () => {
+    const [inputValue, setInputValue] = useState("");
+
+    const handleInputChange = (event) => {
+        setInputValue(event.target.value);
+    };
+
+    const handleKeyDown = (event) => {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            handleVerification();
+        }
+    };
+
+    const handleVerification = () => {
+        if (inputValue.toLowerCase() === "algas") {
+            Swal.fire({
+                title: "¡CORRECTO!",
+                icon: "success",
+                confirmButtonText: "OK"
+            });
+        } else {
+            Swal.fire({
+                title: "Inténtalo de nuevo",
+                icon: "error",
+                confirmButtonText: "OK"
+            });
+        }
+    };
+
+    const handleConfirmClick = () => {
+        handleVerification();
+    };
+
     return (
         <div className="capitulo-container">
-            <div className="titulo-container">
-                <h1 className="titulo-capitulo">
-                Capítulo 6: 'UranoVoley'
-                </h1>
+            <h1 className="titulo-capitulo">
+                ALGAS
+            </h1>
+            <textarea
+                className="texto-capitulo"
+                placeholder="Escribe aquí el nombre..."
+                value={inputValue}
+                onChange={handleInputChange}
+                onKeyDown={handleKeyDown}
+            ></textarea>
+            <div>
+            <button className="btn btn-light" onClick={handleConfirmClick}>
+                Confirmar
+            </button>
             </div>
-            <div className="contenido-container">
-                <div className="parrafo1">
-                    <p>
-                    El Gigante de Hielo Inclinado. Urano es conocido por su inclinación extrema, casi sobre su costado, y por ser un gigante de hielo. Es el séptimo planeta desde el sol y tiene una atmósfera compuesta de hidrógeno, helio y metano, que le da su color azul verdoso. 
-                    </p>
-                </div>
-                <div className="parrafo2">
-                    <p>
-                    Urano tiene anillos tenues y 27 lunas conocidas. Debido a su inclinación, experimenta estaciones extremas y cambios climáticos significativos.
-                    </p>
-                </div>
-                <div className="imagen-container">
-                    <img src="https://img2.rtve.es/i/?w=1600&i=1678705110488.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
-                </div>
-            </div>
+            <img src="https://humanidades.com/wp-content/uploads/2016/09/algas-2-e1560535617725.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
-                <button className="btn btn-light"><Link to="/" className="link-back">Atrás</Link></button>
+                <button className="btn btn-light">
+                    <Link to="/" className="link-back">Atrás</Link>
+                </button>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Capitulo6;
