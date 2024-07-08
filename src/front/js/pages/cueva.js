@@ -6,19 +6,19 @@ export const Cueva = () => {
     const slidesData = [
         {
             id: 13,
-            imageSrc: "https://www.gaceta.unam.mx/wp-content/uploads/2021/01/tibudes.jpg",
+            imageSrc: "https://www.monapart.com/sites/default/files/styles/scale_960x960_/public/mediabrowser/cueva-prehistoria.jpg?itok=bx37ndWV",
         },
         {
             id: 14,
-            imageSrc: "https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2020/09/21/4BCA0061-4CDB-4C39-94A8-D03F8DD4CA36/58.jpg",
+            imageSrc: "https://euskaditoptravel.com/wp-content/themes/yootheme-fjord-2.4.16/cache/Dolmen-Sorginetxe-Noradoa-1-3a7f713f.jpeg",
         },
         {
             id: 15,
-            imageSrc: "https://www.ecologistasenaccion.org/wp-content/uploads/2023/07/SebastianHernandisCaballero_Pelagia-noctiluca.jpg",
+            imageSrc: "https://c.pxhere.com/photos/ff/06/open_fire_fireplace_open_fireplace_cozy_fire-902207.jpg!d",
         },
         {
             id: 16,
-            imageSrc: "https://img.freepik.com/fotos-premium/cangrejo-arena-playa-oceano-al-fondo_354831-2567.jpg",
+            imageSrc: "https://media.istockphoto.com/id/1471439948/es/foto/el-bisonte-de-yellowstone-park-tambi%C3%A9n-conocido-como-bisonte-americano.jpg?s=612x612&w=0&k=20&c=Xlm2ZJHkq7OAKgMA4cj-3drhb-9ufnRV5jAvfsG_h3g=",
         },
     ];
 

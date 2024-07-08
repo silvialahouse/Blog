@@ -19,7 +19,7 @@ const Capitulo15 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "fuego") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -47,7 +47,7 @@ const Capitulo15 = () => {
     return (
         <div className="capitulo-container">
             <h1 className="titulo-capitulo">
-                TORTUGA
+                FUEGO
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +61,7 @@ const Capitulo15 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://c.pxhere.com/photos/ff/06/open_fire_fireplace_open_fireplace_cozy_fire-902207.jpg!d" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/cueva" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>

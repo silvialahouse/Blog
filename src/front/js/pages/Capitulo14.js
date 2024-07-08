@@ -19,7 +19,7 @@ const Capitulo14 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "dolmen") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -47,7 +47,7 @@ const Capitulo14 = () => {
     return (
         <div className="capitulo-container">
             <h1 className="titulo-capitulo">
-                TORTUGA
+                DOLMEN
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +61,7 @@ const Capitulo14 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://euskaditoptravel.com/wp-content/themes/yootheme-fjord-2.4.16/cache/Dolmen-Sorginetxe-Noradoa-1-3a7f713f.jpeg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/cueva" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>

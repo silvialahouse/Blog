@@ -6,19 +6,19 @@ export const Brochazos = () => {
     const slidesData = [
         {
             id: 21,
-            imageSrc: "https://www.gaceta.unam.mx/wp-content/uploads/2021/01/tibudes.jpg",
+            imageSrc: "https://media.istockphoto.com/id/157683890/es/foto/pintor-de-paleta.jpg?s=612x612&w=0&k=20&c=DILG3nBA2SWThGw--1Q8xrYQ9NKW8v52DNGyfbS3c3c=",
         },
         {
             id: 22,
-            imageSrc: "https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2020/09/21/4BCA0061-4CDB-4C39-94A8-D03F8DD4CA36/58.jpg",
+            imageSrc: "https://st3.depositphotos.com/12039320/19305/i/450/depositphotos_193050770-stock-photo-side-view-beautiful-female-artist.jpg",
         },
         {
             id: 23,
-            imageSrc: "https://www.ecologistasenaccion.org/wp-content/uploads/2023/07/SebastianHernandisCaballero_Pelagia-noctiluca.jpg",
+            imageSrc: "https://m.media-amazon.com/images/I/71bVv5eQHgS._AC_UF894,1000_QL80_.jpg",
         },
         {
             id: 24,
-            imageSrc: "https://img.freepik.com/fotos-premium/cangrejo-arena-playa-oceano-al-fondo_354831-2567.jpg",
+            imageSrc: "https://www.shutterstock.com/image-photo/wooden-easel-blank-canvas-on-600nw-2332856331.jpg",
         },
     ];
 

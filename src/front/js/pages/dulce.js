@@ -6,19 +6,19 @@ export const Dulce = () => {
     const slidesData = [
         {
             id: 37,
-            imageSrc: "https://www.gaceta.unam.mx/wp-content/uploads/2021/01/tibudes.jpg",
+            imageSrc: "https://www.ecocolmena.org/wp-content/uploads/2020/05/Los-nuevos-apicultores-del-siglo-XXI.jpg",
         },
         {
             id: 38,
-            imageSrc: "https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2020/09/21/4BCA0061-4CDB-4C39-94A8-D03F8DD4CA36/58.jpg",
+            imageSrc: "https://www.marnys.com/wp-content/uploads/colmena-imgp.jpg",
         },
         {
             id: 39,
-            imageSrc: "https://www.ecologistasenaccion.org/wp-content/uploads/2023/07/SebastianHernandisCaballero_Pelagia-noctiluca.jpg",
+            imageSrc: "https://allyouneedisbiology.wordpress.com/wp-content/uploads/2015/06/2459483_orig.jpg?w=1038&h=482&crop=1",
         },
         {
             id: 40,
-            imageSrc: "https://img.freepik.com/fotos-premium/cangrejo-arena-playa-oceano-al-fondo_354831-2567.jpg",
+            imageSrc: "https://www.lavanguardia.com/files/content_image_mobile_filter/files/fp/uploads/2023/05/24/646e3ee95c925.r_d.3206-1520.jpeg",
         },
     ];
 

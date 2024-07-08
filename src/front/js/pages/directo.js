@@ -6,19 +6,19 @@ export const Directo = () => {
     const slidesData = [
         {
             id: 41,
-            imageSrc: "https://www.gaceta.unam.mx/wp-content/uploads/2021/01/tibudes.jpg",
+            imageSrc: "https://i.pinimg.com/originals/60/5b/27/605b27ef3c439e5ca19754bb8ff43aba.png",
         },
         {
             id: 42,
-            imageSrc: "https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2020/09/21/4BCA0061-4CDB-4C39-94A8-D03F8DD4CA36/58.jpg",
+            imageSrc: "https://www.fiba.basketball/api/img/graphic/186e610d-8934-4d08-b167-59614cabd918/940/529",
         },
         {
             id: 43,
-            imageSrc: "https://www.ecologistasenaccion.org/wp-content/uploads/2023/07/SebastianHernandisCaballero_Pelagia-noctiluca.jpg",
+            imageSrc: "https://www.sport.es/labolsadelcorredor/wp-content/uploads/2021/05/kene-1.jpg",
         },
         {
             id: 44,
-            imageSrc: "https://img.freepik.com/fotos-premium/cangrejo-arena-playa-oceano-al-fondo_354831-2567.jpg",
+            imageSrc: "https://upload.wikimedia.org/wikipedia/commons/9/97/Beijing_2008.png",
         },
     ];
 

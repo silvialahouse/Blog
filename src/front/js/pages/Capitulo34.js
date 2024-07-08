@@ -19,7 +19,7 @@ const Capitulo34 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "entrada") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -46,8 +46,9 @@ const Capitulo34 = () => {
 
     return (
         <div className="capitulo-container">
+            <p>PARA IR AL CINE TIENES QUE COMPRAR UNA</p>
             <h1 className="titulo-capitulo">
-                TORTUGA
+                ENTRADA
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +62,7 @@ const Capitulo34 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://img.freepik.com/vector-premium/ilustracion-entradas-cine-rojo-entradas-cine_268834-116.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/accion" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>

@@ -6,19 +6,19 @@ export const Accion = () => {
     const slidesData = [
         {
             id: 33,
-            imageSrc: "https://www.gaceta.unam.mx/wp-content/uploads/2021/01/tibudes.jpg",
+            imageSrc: "https://35mm.es/wp-content/uploads/2021/06/claqueta-de-cine.jpg",
         },
         {
             id: 34,
-            imageSrc: "https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2020/09/21/4BCA0061-4CDB-4C39-94A8-D03F8DD4CA36/58.jpg",
+            imageSrc: "https://img.freepik.com/vector-premium/ilustracion-entradas-cine-rojo-entradas-cine_268834-116.jpg",
         },
         {
             id: 35,
-            imageSrc: "https://www.ecologistasenaccion.org/wp-content/uploads/2023/07/SebastianHernandisCaballero_Pelagia-noctiluca.jpg",
+            imageSrc: "https://media.istockphoto.com/id/1131545834/es/foto/gente-en-el-auditorio-del-cine-con-pantalla-blanca-vac%C3%ADa.jpg?s=612x612&w=0&k=20&c=cGi6qq3jx7U-Vvi7wW3_jcNdTHiQfvTUaoN3YROl2ik=",
         },
         {
             id: 36,
-            imageSrc: "https://img.freepik.com/fotos-premium/cangrejo-arena-playa-oceano-al-fondo_354831-2567.jpg",
+            imageSrc: "https://hips.hearstapps.com/hmg-prod/images/estrenos-familiares-verano-1561081403.jpg",
         },
     ];
 

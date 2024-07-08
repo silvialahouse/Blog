@@ -19,7 +19,7 @@ const Capitulo16 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "bisonte") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -47,7 +47,7 @@ const Capitulo16 = () => {
     return (
         <div className="capitulo-container">
             <h1 className="titulo-capitulo">
-                TORTUGA
+                BISONTE
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +61,7 @@ const Capitulo16 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://media.istockphoto.com/id/1471439948/es/foto/el-bisonte-de-yellowstone-park-tambi%C3%A9n-conocido-como-bisonte-americano.jpg?s=612x612&w=0&k=20&c=Xlm2ZJHkq7OAKgMA4cj-3drhb-9ufnRV5jAvfsG_h3g=" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/cueva" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>

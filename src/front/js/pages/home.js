@@ -20,7 +20,7 @@ export const Home = () => {
                 <div className="row links-container">
                     {[
                         { link: "/teduele", img: teduele, text: "¿TE DUELE AQUÍ?" },
-                        { link: "/cueva", img: cueva, text: "VIVO EN UNA CUEVA" },
+                        { link: "/cueva", img: cueva, text: "VIAJANDO AL PASADO" },
                         { link: "/despegamos", img: despegamos, text: "3, 2, 1, ¡DESPEGAMOS!" },
                         { link: "/brochazos", img: brochazos, text: "A BROCHAZOS" },
                         { link: "/oceano", img: oceano, text: "BUCEANDO ENTRE CORALES" },

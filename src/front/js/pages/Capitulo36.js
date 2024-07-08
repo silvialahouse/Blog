@@ -19,7 +19,7 @@ const Capitulo36 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "cartelera") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -46,8 +46,9 @@ const Capitulo36 = () => {
 
     return (
         <div className="capitulo-container">
+            <p>PARA ELEGIR PELÍCULA HAY QUE MIRAR LA</p>
             <h1 className="titulo-capitulo">
-                TORTUGA
+                CARTELERA
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +62,7 @@ const Capitulo36 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://hips.hearstapps.com/hmg-prod/images/estrenos-familiares-verano-1561081403.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/accion" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>

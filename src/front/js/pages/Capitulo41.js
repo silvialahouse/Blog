@@ -19,7 +19,7 @@ const Capitulo41 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "aros olimpicos") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -46,8 +46,9 @@ const Capitulo41 = () => {
 
     return (
         <div className="capitulo-container">
+            <p>EL SÍMBOLO DE LAS OLIMPIADAS SON LOS</p>
             <h1 className="titulo-capitulo">
-                TORTUGA
+                AROS OLIMPICOS
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +62,7 @@ const Capitulo41 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://i.pinimg.com/originals/60/5b/27/605b27ef3c439e5ca19754bb8ff43aba.png" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/directo" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>

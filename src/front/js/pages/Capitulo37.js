@@ -19,7 +19,7 @@ const Capitulo37 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "apicultor") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -46,8 +46,9 @@ const Capitulo37 = () => {
 
     return (
         <div className="capitulo-container">
+            <p>LA PERSONA QUE CUIDA LAS ABEJAS ES EL</p>
             <h1 className="titulo-capitulo">
-                TORTUGA
+                APICULTOR
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +62,7 @@ const Capitulo37 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://www.ecocolmena.org/wp-content/uploads/2020/05/Los-nuevos-apicultores-del-siglo-XXI.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/dulce" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>

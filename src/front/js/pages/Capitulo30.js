@@ -19,7 +19,7 @@ const Capitulo30 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "iglu") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -46,8 +46,9 @@ const Capitulo30 = () => {
 
     return (
         <div className="capitulo-container">
+            <p>LA CASA TÍPICA DEL POLO NORTE SE LLAMA</p>
             <h1 className="titulo-capitulo">
-                TORTUGA
+                IGLU
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +62,7 @@ const Capitulo30 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://laroussemagazine.mx/wp-content/uploads/2024/01/01_Iglu_COVER.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/iglu" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>

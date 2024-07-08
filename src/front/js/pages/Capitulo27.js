@@ -19,7 +19,7 @@ const Capitulo27 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "caballeros") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -46,8 +46,9 @@ const Capitulo27 = () => {
 
     return (
         <div className="capitulo-container">
+            <p>EL PUEBLO ERA DEFENDIDO POR</p>
             <h1 className="titulo-capitulo">
-                TORTUGA
+                CABALLEROS
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +62,7 @@ const Capitulo27 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://img.freepik.com/fotos-premium/caballero-medieval-bandera_1060272-5884.jpg?w=360" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/caballeros" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>

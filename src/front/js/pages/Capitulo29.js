@@ -19,7 +19,7 @@ const Capitulo29 = () => {
     };
 
     const handleVerification = () => {
-        if (inputValue.toLowerCase() === "tortuga") {
+        if (inputValue.toLowerCase() === "inuit") {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
@@ -46,8 +46,9 @@ const Capitulo29 = () => {
 
     return (
         <div className="capitulo-container">
+            <p>LOS HUMANOS QUE VIVEN EN EL ÁRTICO SE LLAMAN</p>
             <h1 className="titulo-capitulo">
-                TORTUGA
+                INUIT
             </h1>
             <textarea
                 className="texto-capitulo"
@@ -61,7 +62,7 @@ const Capitulo29 = () => {
                     <FaCheck className="tick-icon-svg" />
                 </button>
             </div>
-            <img src="https://concepto.de/wp-content/uploads/2020/04/tortuga-e1588195744955.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
+            <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/thelastice_01.jpg?w=1600&h=834" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
                     <Link to="/iglu" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
