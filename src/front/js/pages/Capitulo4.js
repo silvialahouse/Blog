@@ -64,7 +64,7 @@ const Capitulo4 = () => {
             <img src="https://img.freepik.com/fotos-premium/cangrejo-arena-playa-oceano-al-fondo_354831-2567.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
-                    <Link to="/" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
+                    <Link to="/oceano" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
                 </button>
             </div>
         </div>

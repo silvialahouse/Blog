@@ -64,7 +64,7 @@ const Capitulo3 = () => {
             <img src="https://www.ecologistasenaccion.org/wp-content/uploads/2023/07/SebastianHernandisCaballero_Pelagia-noctiluca.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
-                    <Link to="/" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
+                    <Link to="/oceano" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
                 </button>
             </div>
         </div>

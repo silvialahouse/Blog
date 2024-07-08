@@ -1,14 +1,58 @@
-.background-div {
-    background: linear-gradient(to bottom, #e1ecf1, #005377);
+.background-div-home {
+    background: linear-gradient(to bottom, #dfeedb, #b0fcad);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .title-home {
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: 'Borel', cursive;
-    color: #003458;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 40px;
+    color: #032c0a;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link-item {
+    text-decoration: none;
+    color: #f0ecec;
+    transition: transform 0.3s ease-in-out;
+}
+
+.link-item:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.link-item:hover .image-container {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .links-container img {
@@ -16,12 +60,24 @@
     height: auto;
     display: block;
     margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
 }
 
-.links-container div {
-    margin-top: 5px;
-    font-size: 16px;
-    color: #000;
+.link-item:hover img {
+    transform: scale(1.1);
+}
+
+.link-text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #363636;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-item:hover .link-text {
+    color: #032c0a;
 }
 
 @media (min-width: 992px) {

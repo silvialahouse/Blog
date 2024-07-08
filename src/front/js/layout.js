@@ -11,51 +11,42 @@ import Capitulo5 from "./pages/Capitulo5";
 import Capitulo6 from "./pages/Capitulo6";
 import Capitulo7 from "./pages/Capitulo7";
 import Capitulo8 from "./pages/Capitulo8";
-
-import Accion1 from "./pages/Accion1";
-import Accion2 from "./pages/Accion2";
-import Accion3 from "./pages/Accion3";
-import Accion4 from "./pages/Accion4";
-
-import Brochazos1 from "./pages/Brochazos1";
-import Brochazos2 from "./pages/Brochazos2";
-import Brochazos3 from "./pages/Brochazos3";
-import Brochazos4 from "./pages/Brochazos4";
-
-import Caballeros1 from "./pages/Caballeros1";
-import Caballeros2 from "./pages/Caballeros2";
-import Caballeros3 from "./pages/Caballeros3";
-import Caballeros4 from "./pages/Caballeros4";
-
-import Cueva1 from "./pages/Cueva1";
-import Cueva2 from "./pages/Cueva2";
-import Cueva3 from "./pages/Cueva3";
-import Cueva4 from "./pages/Cueva4";
-
-import Despegamos1 from "./pages/Despegamos1";
-import Despegamos2 from "./pages/Despegamos2";
-import Despegamos3 from "./pages/Despegamos3";
-import Despegamos4 from "./pages/Despegamos4";
-
-import Directo1 from "./pages/Directo1";
-import Directo2 from "./pages/Directo2";
-import Directo3 from "./pages/Directo3";
-import Directo4 from "./pages/Directo4";
-
-import Dulce1 from "./pages/Dulce1";
-import Dulce2 from "./pages/Dulce2";
-import Dulce3 from "./pages/Dulce3";
-import Dulce4 from "./pages/Dulce4";
-
-import Iglu1 from "./pages/Iglu1";
-import Iglu2 from "./pages/Iglu2.js";
-import Iglu3 from "./pages/Iglu3";
-import Iglu4 from "./pages/Iglu4";
-
-import Teduele1 from "./pages/Teduele1";
-import Teduele2 from "./pages/Teduele2";
-import Teduele3 from "./pages/Teduele3";
-import Teduele4 from "./pages/Teduele4";
+import Capitulo9 from "./pages/Capitulo9";
+import Capitulo10 from "./pages/Capitulo10";
+import Capitulo11 from "./pages/Capitulo11";
+import Capitulo12 from "./pages/Capitulo12";
+import Capitulo13 from "./pages/Capitulo13.js";
+import Capitulo14 from "./pages/Capitulo14.js";
+import Capitulo15 from "./pages/Capitulo15.js";
+import Capitulo16 from "./pages/Capitulo16.js";
+import Capitulo17 from "./pages/Capitulo17.js";
+import Capitulo18 from "./pages/Capitulo18.js";
+import Capitulo19 from "./pages/Capitulo19.js";
+import Capitulo20 from "./pages/Capitulo20.js";
+import Capitulo21 from "./pages/Capitulo21.js";
+import Capitulo22 from "./pages/Capitulo22.js";
+import Capitulo23 from "./pages/Capitulo23.js";
+import Capitulo24 from "./pages/Capitulo24.js";
+import Capitulo25 from "./pages/Capitulo25.js";
+import Capitulo26 from "./pages/Capitulo26.js";
+import Capitulo27 from "./pages/Capitulo27.js";
+import Capitulo28 from "./pages/Capitulo28.js";
+import Capitulo29 from "./pages/Capitulo29.js";
+import Capitulo30 from "./pages/Capitulo30.js";
+import Capitulo31 from "./pages/Capitulo31.js";
+import Capitulo32 from "./pages/Capitulo32.js";
+import Capitulo33 from "./pages/Capitulo33.js";
+import Capitulo34 from "./pages/Capitulo34.js";
+import Capitulo35 from "./pages/Capitulo35.js";
+import Capitulo36 from "./pages/Capitulo36.js";
+import Capitulo37 from "./pages/Capitulo37.js";
+import Capitulo38 from "./pages/Capitulo38.js";
+import Capitulo39 from "./pages/Capitulo39.js";
+import Capitulo40 from "./pages/Capitulo40.js";
+import Capitulo41 from "./pages/Capitulo41.js";
+import Capitulo42 from "./pages/Capitulo42.js";
+import Capitulo43 from "./pages/Capitulo43.js";
+import Capitulo44 from "./pages/Capitulo44.js";
 
 import { Home } from "./pages/home";
 
@@ -109,52 +100,43 @@ const Layout = () => {
                         <Route element={<Capitulo6 />} path="/capitulo6" />
                         <Route element={<Capitulo7 />} path="/capitulo7" />
                         <Route element={<Capitulo8 />} path="/capitulo8" />
-
-                        <Route element={<Accion1 />} path="/accion1" />
-                        <Route element={<Accion2 />} path="/accion2" />
-                        <Route element={<Accion3 />} path="/accion3" />
-                        <Route element={<Accion4 />} path="/accion4" />
-
-                        <Route element={<Brochazos1 />} path="/brochazos1" />
-                        <Route element={<Brochazos2 />} path="/brochazos2" />
-                        <Route element={<Brochazos3 />} path="/brochazos3" />
-                        <Route element={<Brochazos4 />} path="/brochazos4" />
-
-                        <Route element={<Caballeros1 />} path="/caballeros1" />
-                        <Route element={<Caballeros2 />} path="/caballeros2" />
-                        <Route element={<Caballeros3 />} path="/caballeros3" />
-                        <Route element={<Caballeros4 />} path="/caballeros4" />
-
-                        <Route element={<Cueva1 />} path="/cueva1" />
-                        <Route element={<Cueva2 />} path="/cueva2" />
-                        <Route element={<Cueva3 />} path="/cueva3" />
-                        <Route element={<Cueva4 />} path="/cueva4" />
-                    
-                        <Route element={<Despegamos1 />} path="/despegamos1" />
-                        <Route element={<Despegamos2 />} path="/despegamos2" />
-                        <Route element={<Despegamos3 />} path="/despegamos3" />
-                        <Route element={<Despegamos4 />} path="/despegamos4" />
-
-                        <Route element={<Directo1 />} path="/directo1" />
-                        <Route element={<Directo2 />} path="/directo2" />
-                        <Route element={<Directo3 />} path="/directo3" />
-                        <Route element={<Directo4 />} path="/directo4" />
-
-                        <Route element={<Dulce1 />} path="/dulce1" />
-                        <Route element={<Dulce2 />} path="/dulce2" />
-                        <Route element={<Dulce3 />} path="/dulce3" />
-                        <Route element={<Dulce4 />} path="/dulce4" />
-
-                        <Route element={<Iglu1 />} path="/iglu1" />
-                        <Route element={<Iglu2 />} path="/iglu2" />
-                        <Route element={<Iglu3 />} path="/iglu3" />
-                        <Route element={<Iglu4 />} path="/iglu4" />
-
-                        <Route element={<Teduele1 />} path="/teduele1" />
-                        <Route element={<Teduele2 />} path="/teduele2" />
-                        <Route element={<Teduele3 />} path="/teduele3" />
-                        <Route element={<Teduele4 />} path="/teduele4" />
-
+                        <Route element={<Capitulo9 />} path="/capitulo9" />
+                        <Route element={<Capitulo10 />} path="/capitulo10" />
+                        <Route element={<Capitulo11 />} path="/capitulo11" />
+                        <Route element={<Capitulo12 />} path="/capitulo12" />
+                        <Route element={<Capitulo13 />} path="/capitulo13" />
+                        <Route element={<Capitulo14 />} path="/capitulo14" />
+                        <Route element={<Capitulo15 />} path="/capitulo15" />
+                        <Route element={<Capitulo16 />} path="/capitulo16" />
+                        <Route element={<Capitulo17 />} path="/capitulo17" />
+                        <Route element={<Capitulo18 />} path="/capitulo18" />
+                        <Route element={<Capitulo19 />} path="/capitulo19" />
+                        <Route element={<Capitulo20 />} path="/capitulo20" />
+                        <Route element={<Capitulo21 />} path="/capitulo21" />
+                        <Route element={<Capitulo22 />} path="/capitulo22" />
+                        <Route element={<Capitulo23 />} path="/capitulo23" />
+                        <Route element={<Capitulo24 />} path="/capitulo24" />
+                        <Route element={<Capitulo25 />} path="/capitulo25" />
+                        <Route element={<Capitulo26 />} path="/capitulo26" />
+                        <Route element={<Capitulo27 />} path="/capitulo27" />
+                        <Route element={<Capitulo28 />} path="/capitulo28" />
+                        <Route element={<Capitulo29 />} path="/capitulo29" />
+                        <Route element={<Capitulo30 />} path="/capitulo30" />
+                        <Route element={<Capitulo31 />} path="/capitulo31" />
+                        <Route element={<Capitulo32 />} path="/capitulo32" />
+                        <Route element={<Capitulo33 />} path="/capitulo33" />
+                        <Route element={<Capitulo34 />} path="/capitulo34" />
+                        <Route element={<Capitulo35 />} path="/capitulo35" />
+                        <Route element={<Capitulo36 />} path="/capitulo36" />
+                        <Route element={<Capitulo37 />} path="/capitulo37" />
+                        <Route element={<Capitulo38 />} path="/capitulo38" />
+                        <Route element={<Capitulo39 />} path="/capitulo39" />
+                        <Route element={<Capitulo40 />} path="/capitulo40" />
+                        <Route element={<Capitulo41 />} path="/capitulo41" />
+                        <Route element={<Capitulo42 />} path="/capitulo42" />
+                        <Route element={<Capitulo43 />} path="/capitulo43" />
+                        <Route element={<Capitulo44 />} path="/capitulo44" />
+                        
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>
                     <Footer />

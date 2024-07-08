@@ -64,7 +64,7 @@ const Capitulo7 = () => {
             <img src="https://static7.depositphotos.com/1030327/742/i/450/depositphotos_7422738-stock-photo-starfish.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
-                    <Link to="/" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
+                    <Link to="/oceano" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
                 </button>
             </div>
         </div>

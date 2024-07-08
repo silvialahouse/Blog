@@ -5,25 +5,25 @@ import Slide from "./Slide";
 export const Directo = () => {
     const slidesData = [
         {
-            id: 1,
+            id: 41,
             imageSrc: "https://www.gaceta.unam.mx/wp-content/uploads/2021/01/tibudes.jpg",
         },
         {
-            id: 2,
+            id: 42,
             imageSrc: "https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2020/09/21/4BCA0061-4CDB-4C39-94A8-D03F8DD4CA36/58.jpg",
         },
         {
-            id: 3,
+            id: 43,
             imageSrc: "https://www.ecologistasenaccion.org/wp-content/uploads/2023/07/SebastianHernandisCaballero_Pelagia-noctiluca.jpg",
         },
         {
-            id: 4,
+            id: 44,
             imageSrc: "https://img.freepik.com/fotos-premium/cangrejo-arena-playa-oceano-al-fondo_354831-2567.jpg",
         },
     ];
 
     return (
-        <div className="background-div text-center pt-5">
+        <div className="background-div-directo text-center pt-5">
             <h1 className="title-home">RESTRANSMITIENDO EN DIRECTO</h1>
             <div className="container-fluid">
                 <div className="row">

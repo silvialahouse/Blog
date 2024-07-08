@@ -5,25 +5,25 @@ import Slide from "./Slide";
 export const Teduele = () => {
     const slidesData = [
         {
-            id: 1,
-            imageSrc: "https://www.gaceta.unam.mx/wp-content/uploads/2021/01/tibudes.jpg",
+            id: 9,
+            imageSrc: "https://www.siacardio.com/wp-content/uploads/2019/04/inmne.jpg",
         },
         {
-            id: 2,
-            imageSrc: "https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2020/09/21/4BCA0061-4CDB-4C39-94A8-D03F8DD4CA36/58.jpg",
+            id: 10,
+            imageSrc: "https://elmedicointeractivo.com/wp-content/uploads/2019/12/pulmones-700x543.jpg",
         },
         {
-            id: 3,
-            imageSrc: "https://www.ecologistasenaccion.org/wp-content/uploads/2023/07/SebastianHernandisCaballero_Pelagia-noctiluca.jpg",
+            id: 11,
+            imageSrc: "https://www.lifeder.com/wp-content/uploads/2018/03/brazo-y-antebrazo-humanos-lifeder-min-1024x683.jpg",
         },
         {
-            id: 4,
-            imageSrc: "https://img.freepik.com/fotos-premium/cangrejo-arena-playa-oceano-al-fondo_354831-2567.jpg",
+            id: 12,
+            imageSrc: "https://www.esalud.com/wp-content/uploads/2019/06/musculos-pierna.jpg",
         },
     ];
 
     return (
-        <div className="background-div text-center pt-5">
+        <div className="background-div-teduele text-center pt-5">
             <h1 className="title-home">¿TE DUELE AQUÍ?</h1>
             <div className="container-fluid">
                 <div className="row">

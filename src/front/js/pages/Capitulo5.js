@@ -64,7 +64,7 @@ const Capitulo5 = () => {
             <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/coral-reefs-2728211.jpg?w=1600&h=900" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
-                    <Link to="/" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
+                    <Link to="/oceano" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
                 </button>
             </div>
         </div>

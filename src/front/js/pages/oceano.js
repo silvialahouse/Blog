@@ -39,7 +39,7 @@ export const Oceano = () => {
     ];
 
     return (
-        <div className="background-div text-center pt-5">
+        <div className="background-div-oceano text-center pt-5">
             <h1 className="title-home">BUCEANDO ENTRE CORALES</h1>
             <div className="container-fluid">
                 <div className="row">

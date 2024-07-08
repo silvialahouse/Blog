@@ -64,7 +64,7 @@ const Capitulo2 = () => {
             <img src="https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2020/09/21/4BCA0061-4CDB-4C39-94A8-D03F8DD4CA36/58.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
-                    <Link to="/" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
+                    <Link to="/oceano" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
                 </button>
             </div>
         </div>

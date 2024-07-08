@@ -64,7 +64,7 @@ const Capitulo6 = () => {
             <img src="https://humanidades.com/wp-content/uploads/2016/09/algas-2-e1560535617725.jpg" alt="Imagen del Capítulo 1" className="imagen-capitulo" />
             <div className="boton-container">
                 <button className="btn-2 btn-light">
-                    <Link to="/" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
+                    <Link to="/oceano" className="link-back"><FaArrowLeft className="arrow-icon-svg" /></Link>
                 </button>
             </div>
         </div>

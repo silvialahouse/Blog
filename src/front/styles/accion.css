@@ -1,12 +1,12 @@
-.background-div {
-    background: linear-gradient(to bottom, #e1ecf1, #005377);
+.background-div-accion {
+    background: linear-gradient(to bottom, #e0e0e0, #949494);
     min-height: 100vh;
 }
 
 .title-home {
     font-size: 2.5em;
     font-family: 'Borel', cursive;
-    color: #003458;
+    color: #000000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     padding: 40px;
 }
