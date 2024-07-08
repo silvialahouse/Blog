@@ -23,13 +23,19 @@ const Capitulo2 = () => {
             Swal.fire({
                 title: "¡CORRECTO!",
                 icon: "success",
-                confirmButtonText: "OK"
+                confirmButtonText: "OK",
+                customClass: {
+                    popup: 'swal2-popup'
+                }
             });
         } else {
             Swal.fire({
-                title: "Inténtalo de nuevo",
+                title: "INTÉNTALO DE NUEVO",
                 icon: "error",
-                confirmButtonText: "OK"
+                confirmButtonText: "OK",
+                customClass: {
+                    popup: 'swal2-popup'
+                }
             });
         }
     };

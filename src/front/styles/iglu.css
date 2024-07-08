@@ -1,0 +1,17 @@
+.background-div {
+    background: linear-gradient(to bottom, #e1ecf1, #005377);
+    min-height: 100vh;
+}
+
+.title-home {
+    font-size: 2.5em;
+    font-family: 'Borel', cursive;
+    color: #003458;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
