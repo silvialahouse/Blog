@@ -24,7 +24,7 @@ export const Cueva = () => {
 
     return (
         <div className="background-div-cueva text-center pt-5">
-            <h1 className="title-home">VIVO EN UNA CUEVA</h1>
+            <h1 className="title-home">VIAJANDO AL PASADO</h1>
             <div className="container-fluid">
                 <div className="row">
                     {slidesData.map((slide) => (
