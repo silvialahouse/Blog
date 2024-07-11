@@ -47,6 +47,14 @@ import Capitulo41 from "./pages/Capitulo41.js";
 import Capitulo42 from "./pages/Capitulo42.js";
 import Capitulo43 from "./pages/Capitulo43.js";
 import Capitulo44 from "./pages/Capitulo44.js";
+import Capitulo45 from "./pages/Capitulo45.js";
+import Capitulo46 from "./pages/Capitulo46.js";
+import Capitulo47 from "./pages/Capitulo47.js";
+import Capitulo48 from "./pages/Capitulo48.js";
+import Capitulo49 from "./pages/Capitulo49.js";
+import Capitulo50 from "./pages/Capitulo50.js";
+import Capitulo51 from "./pages/Capitulo51.js";
+import Capitulo52 from "./pages/Capitulo52.js";
 
 import { Home } from "./pages/home";
 
@@ -60,6 +68,8 @@ import { Dulce } from "./pages/dulce";
 import { Iglu } from "./pages/iglu";
 import { Oceano } from "./pages/oceano";
 import { Teduele } from "./pages/teduele";
+import { Vida } from "./pages/vida";
+import { Verano } from "./pages/verano";
 
 import injectContext from "./store/appContext";
 
@@ -91,6 +101,8 @@ const Layout = () => {
                         <Route element={<Iglu />} path="/iglu" />
                         <Route element={<Oceano />} path="/oceano" />
                         <Route element={<Teduele />} path="/teduele" />
+                        <Route element={<Verano />} path="/verano" />
+                        <Route element={<Vida />} path="/vida" />
 
                         <Route element={<Capitulo1 />} path="/capitulo1" />
                         <Route element={<Capitulo2 />} path="/capitulo2" />
@@ -136,6 +148,14 @@ const Layout = () => {
                         <Route element={<Capitulo42 />} path="/capitulo42" />
                         <Route element={<Capitulo43 />} path="/capitulo43" />
                         <Route element={<Capitulo44 />} path="/capitulo44" />
+                        <Route element={<Capitulo45 />} path="/capitulo45" />
+                        <Route element={<Capitulo46 />} path="/capitulo46" />
+                        <Route element={<Capitulo47 />} path="/capitulo47" />
+                        <Route element={<Capitulo48 />} path="/capitulo48" />
+                        <Route element={<Capitulo49 />} path="/capitulo49" />
+                        <Route element={<Capitulo50 />} path="/capitulo50" />
+                        <Route element={<Capitulo51 />} path="/capitulo51" />
+                        <Route element={<Capitulo52 />} path="/capitulo52" />
                         
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>

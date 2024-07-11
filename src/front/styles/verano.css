@@ -1,0 +1,17 @@
+.background-div-verano {
+    background: linear-gradient(to bottom, #a0dcf8, #fad2d2);
+    min-height: 100vh;
+}
+
+.title-home {
+    font-size: 2.5em;
+    font-family: 'Borel', cursive;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
