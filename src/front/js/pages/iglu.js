@@ -10,7 +10,7 @@ export const Iglu = () => {
         },
         {
             id: 30,
-            imageSrc: "https://laroussemagazine.mx/wp-content/uploads/2024/01/01_Iglu_COVER.jpg",
+            imageSrc: "https://img.magnific.com/fotos-premium/iglu-tradicional-artico-iglu-esta-rodeado-nieve-tiene-puerta-entrada_443830-44334.jpg",
         },
         {
             id: 31,

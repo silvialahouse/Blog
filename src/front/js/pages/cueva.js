@@ -10,7 +10,7 @@ export const Cueva = () => {
         },
         {
             id: 14,
-            imageSrc: "https://euskaditoptravel.com/wp-content/themes/yootheme-fjord-2.4.16/cache/Dolmen-Sorginetxe-Noradoa-1-3a7f713f.jpeg",
+            imageSrc: "https://images.ireland.com/media/Images/things-to-do/attractions/poulnabrone-dolmen/f7471de59bb24cc8aaa3886507df5820.jpg",
         },
         {
             id: 15,

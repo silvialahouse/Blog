@@ -6,7 +6,7 @@ export const Teduele = () => {
     const slidesData = [
         {
             id: 9,
-            imageSrc: "https://www.siacardio.com/wp-content/uploads/2019/04/inmne.jpg",
+            imageSrc: "https://i.blogs.es/a19a15/650_1000_corazon-humano/650_1200.jpg",
         },
         {
             id: 10,
@@ -18,7 +18,7 @@ export const Teduele = () => {
         },
         {
             id: 12,
-            imageSrc: "https://www.esalud.com/wp-content/uploads/2019/06/musculos-pierna.jpg",
+            imageSrc: "https://png.pngtree.com/thumb_back/fh260/background/20250709/pngtree-leg-muscles-anatomy-image_17585839.webp",
         },
     ];
 

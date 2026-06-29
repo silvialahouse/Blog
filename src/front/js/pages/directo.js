@@ -10,7 +10,7 @@ export const Directo = () => {
         },
         {
             id: 42,
-            imageSrc: "https://www.fiba.basketball/api/img/graphic/186e610d-8934-4d08-b167-59614cabd918/940/529",
+            imageSrc: "https://concepto.de/wp-content/uploads/2014/10/baloncesto-1-e1551134233923.jpg",
         },
         {
             id: 43,

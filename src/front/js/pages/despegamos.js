@@ -10,7 +10,7 @@ export const Despegamos = () => {
         },
         {
             id: 18,
-            imageSrc: "https://www.ngenespanol.com/wp-content/uploads/2023/11/en-2025-los-iconicos-anillos-de-saturno-desapareceran.jpg",
+            imageSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/3840px-Saturn_during_Equinox.jpg",
         },
         {
             id: 19,
